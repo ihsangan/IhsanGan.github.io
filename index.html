@@ -135,9 +135,7 @@
     <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function() {
-        navigator.serviceWorker.register('sw.js').then(function(reg) {
-		  let ok = reg.scope
-	    });
+        navigator.serviceWorker.register('sw.js').then(function(reg));
 	  });
     }
     </script>
