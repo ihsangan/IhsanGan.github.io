@@ -136,7 +136,7 @@
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function() {
         navigator.serviceWorker.register('sw.js').then(function(reg) {
-		  console.log('ServiceWorker registration successful with scope: ', reg.scope);
+		  let ok = reg.scope
 	    });
 	  });
     }
