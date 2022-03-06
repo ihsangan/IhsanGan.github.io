@@ -1,4 +1,8 @@
-let CACHE_NAME = "IhsanGans";
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('sw.js').then(function() {});
+	  });
+}
 let urlsToCache = ["/"];
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(CACHE_NAME).then(function (cache) {

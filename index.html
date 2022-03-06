@@ -132,12 +132,6 @@
       }, 'google_translate_element');
     }
     </script>
-    <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', function() {
-        navigator.serviceWorker.register('sw.js').then(function() {});
-	  });
-    }
-    </script>
+    <script src="/sw.j"></script>
   </body>
 </html>
