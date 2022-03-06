@@ -1,3 +1,3 @@
 {"name":"Ihsan Gans: All about Ihsan is here","short_name":"IhsanGans","start_url":"/","display":"standalone","background_color":"#ffffff","lang":"id","scope":"/","theme_color":"#293e47","prefer_related_applications":true,"icons":[{"src":"https://cdn.jsdelivr.net/gh/ihsangan/ihsangan.github.io@ext/ic192.png","sizes":"192x192","type":"image/png"},{"src":"https://cdn.jsdelivr.net/gh/ihsangan/ihsangan.github.io@ext/ic512.png","sizes":"512x512","type":"image/png"}],
-"shortcuts": [{ "name": "Beranda", "short_name": "Beranda", "url", "/#home", "icons": [{ "src": "https://cdn.jsdelivr.net/gh/ihsangan/ihsangan.github.io@ext/pin192.png", "type": "image/png", "size": "192x192"}] }]
+"shortcuts": [{ "name": "Beranda", "short_name": "Beranda", "description": "Jalan pintas", "url", "/#home", "icons": [{ "src": "https://cdn.jsdelivr.net/gh/ihsangan/ihsangan.github.io@ext/pin192.png", "type": "image/png", "size": "192x192"}] }]
 }
