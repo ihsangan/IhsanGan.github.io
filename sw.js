@@ -3,6 +3,7 @@ if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('sw.js').then(function() {});
 	  });
 }
+let CACHE_NAME = "IhsanGans";
 let urlsToCache = ["/"];
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(CACHE_NAME).then(function (cache) {
