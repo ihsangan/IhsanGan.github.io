@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ihsangan/ihsangan.github.io@ext/style.css">
     <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-    <script src="https://cdn.jsdelivr.net/combine/npm/@statuspage/status-widget/dist/index.js,npm/jquery,npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js,gh/ihsangan/ihsangan.github.io@ext/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/combine/npm/@statuspage/status-widget/dist/index.js,npm/jquery,npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js"></script>
   </head>
   <body>
     <nav class="navbar">
@@ -91,11 +91,12 @@
     </section>
     <footer>
       <div class="inner-width">
-        <b>2022 - ISAN.EU.ORG</b>
+        <b>2022 - ISAN.EU.ORG</b><br>
         <statuspage-widget src="https://status.isan.eu.org"></statuspage-widget>
       </div>
     </footer>
     <button class="goTop fas fa-arrow-up"></button>
+    <script>$(document).ready(function(){$(window).scroll(function(){if(this.scrollY>20){$(".navbar").addClass("sticky");$(".goTop").fadeIn()}else{$(".navbar").removeClass("sticky");$(".goTop").fadeOut()}});$(".goTop").click(function(){scroll(0,0)});$(".menu-toggler").click(function(){$(this).toggleClass("active");$(".navbar-menu").toggleClass("active")});$(".works").magnificPopup({delegate:"a",type:"image",gallery:{enabled:!0}})});function tlinit(){new google.translate.TranslateElement({pageLanguage:"id",layout:google.translate.TranslateElement.InlineLayout.HORIZONTAL},"google_translate_element")};</script>
     <script src="sw.js"></script>
   </body>
 </html>
